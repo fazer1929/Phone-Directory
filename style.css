@@ -16,7 +16,7 @@ body{
 	font-weight: 24px;
 	letter-spacing: 3px;
 	background: fill;
-	background-image: url("./Images/background.jpg");
+	background-image: url("Images/background.jpg");
 }
 
 a{
@@ -101,7 +101,7 @@ table{
 }
 
 .header{
-	background-image: url("./Images/header.jpg");
+	background-image: url("Images/header.jpg");
 	color:white;
 	height: 9vh;
 	text-align: center;

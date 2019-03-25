@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Phone Directory</title>
+	<link href="https://fonts.googleapis.com/css?family=Acme|Amatic+SC" rel="stylesheet">
+	<link rel="icon" type="image/gif" href="./images/phoneIcon.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+	
+</head>
+<body>
+	<div class="header">Phone Directory   <i class="fas fa-phone"></i></div>
+
+	<div class="container">
+	<a href="#"><button class="btn cent btnNav">Add A New Entry</button></a><hr style="margin-top: 15px;">
+
+		
+											<!--Table Showing Registered Users-->
+			<div class="showEntry">
+			<table class="table" id="tbl">
+				<thead>
+				<tr>
+					<th>Name</th>
+					<th>Phone No</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody id="conList">
+				<!-- Sample contacts-->
+				<tr><td>Abhishek</td>
+				<td>897928792</td>
+				<td class="delete">X</td></tr>
+				
+				<tr><td>Agrawal</td>
+				<td>3409820092</td>
+				<td class="delete">X</td></tr>
+
+
+			</tbody>
+			</table>
+			<hr style="margin-top: 20px">
+		</div>
+	
+
+
+
+										<!--Form To Add Users-->
+	<div class="addEntry hidden">
+	
+	<form class="entry-form" method="post" id="entForm"> 
+		<div class="formg">Name : <input class="form-el" type="text"name="Name" id="name" placeholder="Name"></div>
+
+		<div class="formg">Phone Number : <input  class="form-el" type="text"name="Numer" id="number" placeholder="Phone Number"></div>
+		<input type="submit" class="formbtn btn" name="submit" id="submit" value="Add">
+	</form>
+
+	<div class="right">
+		<p><h3>Subscriber To Add -></h3></p>
+		<p>Name : <span  class="showName"></span></p>
+		<p>Phone : <span class="showPhone"></span></p>
+	</div>
+
+		<p class="alert"></p>
+		<hr style="margin-top: 20px">
+			</div></div>
+
+</body>
+<script type="text/javascript" src="app.js"></script>
+</html>

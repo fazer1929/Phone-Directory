@@ -1,0 +1,176 @@
+/*font-family: 'Acme', sans-serif;
+font-family: 'Amatic SC', cursive;*/
+*{
+	margin: 0;
+	padding: 0;
+	color: white;
+}
+
+form input{
+	background: transparent;
+}
+
+body{
+	font-family: 'Amatic SC', cursive;
+	font-size: 18px;
+	font-weight: 24px;
+	letter-spacing: 3px;
+	background: fill;
+	background-image: url("./images/background.jpg");
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+.alert{
+	margin-top: 40px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	background-color: red;
+	font-weight: bold;
+	color: white;
+	width:50%;
+	text-align: center;
+	border-radius: 3px;
+}
+
+.right{
+	float: right;
+	margin-top: 60px;
+	display: inline-block;
+	width: 40%;
+	
+}
+
+.right p{
+	margin-top: 20px;
+	font-size: 24px;
+
+}
+
+.hidden{
+	display: none;
+}
+
+.container{
+	margin: 20px;
+	padding :20px;
+	background-color: rgba(0,0,0,.5);
+	height: 85vh;
+}
+
+.table{
+	margin-top:30px;
+	position: relative;
+	width: 100%;
+}
+
+.table th{
+	margin-bottom: : 15px;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.table td{
+	margin-top: 15px;
+	font-family: Berlin Sans FB;
+}
+.delete{
+	color:white;
+	width: 60px;
+	height: 30px;
+	background-color:rgba(253, 80, 80,1); 
+	font-weight: 30px;
+	font-family: sans-serif;
+	cursor: pointer;
+	border-radius: 4px;
+
+}
+
+table{
+	text-align: center;
+	font-size: 20px;
+}
+
+.cent{
+
+	margin-left:50%;
+	transform: translate(-50%,0);
+}
+
+.header{
+	background-image: url("./images/header.jpg");
+	color:white;
+	height: 9vh;
+	text-align: center;
+	font-size: 30px;
+padding-top: 8px;
+font-family: 'Acme', sans-serif;
+letter-spacing: 5px;
+}
+
+.fas{
+	transform: translate(0,14%);
+}
+
+.btn{
+	display: inline-block;
+	width:40%;
+	height: 5vh;
+	padding: 3px;
+	border-radius:8px;
+	border:none;
+	color: white;
+	background-color: #2F76C5;
+	cursor: pointer;
+	
+}
+
+.btn:hover{
+	background-color: #2D6BB0;
+	box-shadow: 0 10px 20px rgba(255,255,255,.2);
+}
+
+.btn:active{
+box-shadow: 0 5px 20px rgba(0,0,0,.2);	
+}
+
+.formbtn{
+	background-color: rgba(11, 170, 8,0.8);
+	width: 90%;
+	border:none;
+}
+
+.formbtn:hover{
+background-color:#4CB717; 
+}
+
+.form-el{
+	width: 90%;
+	margin-bottom: 20px;
+	padding: 3px;
+	height:3vh;
+	border: 1px solid #919490;
+}
+
+
+.formg{
+	display: block;
+	margin: 10px;
+}
+
+.entry-form{
+	margin: 40px 20px 20px 20px;
+	padding: 10px;
+	width: 40%;
+	display: inline-block;
+}
+
+.formg{
+	display: block;
+	margin: 10px;
+}
+
+
